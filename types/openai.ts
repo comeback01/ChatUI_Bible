@@ -9,9 +9,7 @@ export interface OpenAIModel {
 
 export enum OpenAIModelID {
   GPT_3_5 = 'togethercomputer/llama-2-70b-chat',
-  GPT_3_5_AZ = 'gpt-35-turbo',
-  GPT_4 = 'gpt-4',
-  GPT_4_32K = 'gpt-4-32k',
+  
 }
 
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
