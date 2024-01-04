@@ -76,29 +76,7 @@ const Home = ({
 
   const stopConversationRef = useRef<boolean>(false);
 
-  const { data, error, refetch } = useQuery(
-    ['GetModels', apiKey, serverSideApiKeyIsSet],
-    ({ signal }) => {
-      if (!apiKey && !serverSideApiKeyIsSet) return null;
-
-      return getModels(
-        {
-          key: apiKey,
-        },
-        signal,
-      );
-    },
-    { enabled: true, refetchOnMount: false },
-  );
-
-  useEffect(() => {
-    if (data) dispatch({ field: 'models', value: data });
-  }, [data, dispatch]);
-
-  useEffect(() => {
-    dispatch({ field: 'modelError', value: getModelsError(error) });
-  }, [dispatch, error, getModelsError]);
-
+ 
   // FETCH MODELS ----------------------------------------------
 
   const handleSelectConversation = (conversation: Conversation) => {
