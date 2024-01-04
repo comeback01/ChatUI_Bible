@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'togethercomputer/llama-2-70b-chat',
+  GPT_3_5 = 'N  ousResearch/Nous-Hermes-2-Yi-34B',
   
 }
 
