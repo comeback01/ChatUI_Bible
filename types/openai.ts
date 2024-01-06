@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'upstage/SOLAR-0-70b-16bit',
+  GPT_3_5 = 'Open-Orca/Mistral-7B-OpenOrca',
   
 }
 
