@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'Open-Orca/Mistral-7B-OpenOrca',
+  GPT_3_5 = 'mistralai/Mixtral-8x7B-Instruct-v0.1',
   
 }
 
