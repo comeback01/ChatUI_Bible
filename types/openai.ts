@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'Open-Orca/Mistral-7B-OpenOrca',
+  GPT_3_5 = 'lmsys/vicuna-13b-v1.5-16k',
   
 }
 
@@ -19,7 +19,7 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5]: {
     id: OpenAIModelID.GPT_3_5,
     name: 'WebiChat',
-    maxLength: 8000,
+    maxLength: 16000,
     tokenLimit: 3000,
   },
   
