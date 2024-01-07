@@ -8,10 +8,6 @@ export const OPENAI_API_HOST =
 export const DEFAULT_TEMPERATURE = 
   parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TEMPERATURE || "0.7");
 
-export const DEFAULT_TOP_P = parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TOP_P || "0.9");
-
-export const DEFAULT_TOP_K = parseInt(process.env.NEXT_PUBLIC_DEFAULT_TOP_K || "50");
-
 export const OPENAI_API_TYPE =
   process.env.OPENAI_API_TYPE || 'openai';
 
