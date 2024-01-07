@@ -100,8 +100,8 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           key: apiKey,
           prompt: updatedConversation.prompt,
           temperature: updatedConversation.temperature,
-          top_p: DEFAULT_TOP_P,
-          top_k: DEFAULT_TOP_K,
+          top_p: updatedConversation.DEFAULT_TOP_P,
+          top_k: updatedConversation.DEFAULT_TOP_K,
         };
         const endpoint = getEndpoint(plugin);
         let body;
