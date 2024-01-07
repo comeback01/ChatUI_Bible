@@ -32,7 +32,6 @@ import { ErrorMessageDiv } from './ErrorMessageDiv';
 import { ModelSelect } from './ModelSelect';
 import { SystemPrompt } from './SystemPrompt';
 import { TemperatureSlider } from './Temperature';
-import { DEFAULT_TOP_P, DEFAULT_TOP_K } from '@/utils/app/const';
 import { MemoizedChatMessage } from './MemoizedChatMessage';
 
 interface Props {
@@ -100,8 +99,6 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           key: apiKey,
           prompt: updatedConversation.prompt,
           temperature: updatedConversation.temperature,
-          top_p: updatedConversation.DEFAULT_TOP_P,
-          top_k: updatedConversation.DEFAULT_TOP_K,
         };
         const endpoint = getEndpoint(plugin);
         let body;
