@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'neversleep/noromaid-mixtral-8x7b-instruct',
+  GPT_3_5 = 'cognitivecomputations/dolphin-mixtral-8x7b',
   
 }
 
