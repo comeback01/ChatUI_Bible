@@ -19,8 +19,8 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5]: {
     id: OpenAIModelID.GPT_3_5,
     name: 'WebiChat',
-    maxLength: 4000,
-    tokenLimit: 2000,
+    maxLength: 32000,
+    tokenLimit: 8192,
   },
   
 };
