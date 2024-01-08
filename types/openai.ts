@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'meta-llama/llama-2-13b-chat',
+  GPT_3_5 = 'cognitivecomputations/dolphin-mixtral-8x7b',
   
 }
 
