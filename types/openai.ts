@@ -8,7 +8,7 @@ export interface OpenAIModel {
 }
 
 export enum OpenAIModelID {
-  GPT_3_5 = 'cognitivecomputations/dolphin-mixtral-8x7b',
+  GPT_3_5 = 'teknium/openhermes-2.5-mistral-7b',
   
 }
 
